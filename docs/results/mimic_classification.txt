@@ -1,0 +1,7 @@
+3,862 unique statements, 3,862 already cached, 0 to ask the model
+
+ECGs covered: 800,034
+  flagged by keywords: 179,588 | by LLM: 182,132 | by hybrid: 182,137
+  needs human review (keywords and LLM disagree): 2,554 (0.3%)
+  LLM calls this run: 0 (instead of one per statement line)
+Saved -> data/gold/mimic_ecg_mi_flags.parquet
