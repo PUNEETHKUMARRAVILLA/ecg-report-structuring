@@ -1,0 +1,13 @@
+Choosing a rule on the VALIDATION fold (9):
+  keywords only      recall  62.2%  precision  88.7%  false alarms   43  F1 0.731
+  LLM only           recall  75.0%  precision  73.4%  false alarms  147  F1 0.742
+  keywords OR LLM    recall  75.2%  precision  73.4%  false alarms  147  F1 0.743
+  keywords AND LLM   recall  62.0%  precision  88.6%  false alarms   43  F1 0.730
+  -> chosen: keywords OR LLM
+
+Final score on the TEST fold (10), measured once: keywords OR LLM
+  recall 73.1%  precision 74.4%  false alarms 138  F1 0.738
+
+Where keywords and LLM AGREE (2,027 of 2,198 reports): correct 90.5%
+Where they DISAGREE: 171 reports (7.8%) -> candidates for human review
+Saved -> data/predictions/hybrid_fold10.parquet
