@@ -1,0 +1,12 @@
+Scored 21,799 reports from data/predictions/keywords.parquet
+  Heart attacks found (recall):          62.1%  (3,396 of 5,469)
+  Correct when it says yes (precision):  93.1%  (251 false alarms)
+  F1 (balance of the two):               0.745
+
+  Recall by cardiologist certainty:
+       14% certain: found 0% of 1
+       15% certain: found 32% of 1,207
+       35% certain: found 69% of 127
+       50% certain: found 52% of 960
+       80% certain: found 76% of 199
+      100% certain: found 77% of 2,975
