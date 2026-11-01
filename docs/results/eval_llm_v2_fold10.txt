@@ -1,0 +1,11 @@
+Scored 2,198 reports from data/predictions/llm_v2_fold10.parquet (fold 10)
+  Heart attacks found (recall):          72.9%  (401 of 550)
+  Correct when it says yes (precision):  74.4%  (138 false alarms)
+  F1 (balance of the two):               0.736
+
+  Recall by cardiologist certainty:
+       15% certain: found 47% of 117
+       35% certain: found 72% of 18
+       50% certain: found 70% of 122
+       80% certain: found 76% of 25
+      100% certain: found 85% of 268
